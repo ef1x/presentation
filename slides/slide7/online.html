@@ -3,7 +3,37 @@
 </section>
 <section>
     <h3>online! - First View</h3>
-    <img src="img/online/firstView.png"/>
+    <div style="">
+        <img src="img/online/firstView.png" width="800" height="400"/>
+    </div>
+    <div style=" font-size: 17px" >
+        <section>
+            <table>
+                <thead>
+                <tr>
+                    <th>Seitenaufruf:</th>
+                    <th>fully loaded in Sekunden</th>
+                    <th>Load in Sekunden</th>
+                    <th>DOMContentLoaded in Sekunden</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>ohne ServiceWorker</td>
+                    <td>6,993</td>
+                    <td>1,883</td>
+                    <td>1,886</td>
+                <tr>
+                <tr>
+                    <td>mit ServiceWorker</td>
+                    <td>7,574</td>
+                    <td>2,162</td>
+                    <td>2,167</td>
+                <tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
 </section>
 <section>
     <h3>online! - Repeat View</h3>
@@ -14,7 +44,48 @@
     </ul>
 </section>
 <section>
-    <h3>online! - RepeatView</h3>
-    <img src="img/online/repeatView.png"/>
+    <h3>online! - Repeat View</h3>
+    <div style="">
+        <img src="img/online/repeatView.png" width="800" height="400"/>
+    </div>
+    <div style=" font-size: 17px" >
+        <section>
+
+            <table>
+                <thead>
+                <tr>
+                    <th>Seitenaufruf:</th>
+                    <th>Download in KB</th>
+                    <th>fully loaded in Sekunden</th>
+                    <th>Load in Sekunden</th>
+                    <th>DOMContentLoaded in Sekunden</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>ohne ServiceWorker, conditional GET request</td>
+                    <td>9,74</td>
+                    <td>3,699</td>
+                    <td>1,251</td>
+                    <td>1,24</td>
+                <tr>
+                <tr>
+                    <td>ohne ServiceWorker, nicht abgelaufener Cache</td>
+                    <td>4,59</td>
+                    <td>3,991</td>
+                    <td>1,578</td>
+                    <td>1,585</td>
+                <tr>
+                <tr>
+                    <td>mit ServiceWorker</td>
+                    <td>0</td>
+                    <td>3,404</td>
+                    <td>1,279</td>
+                    <td>1,284</td>
+                <tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
 </section>
 
