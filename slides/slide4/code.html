@@ -1,0 +1,52 @@
+<section>
+<h3>ServiceWorker in vier Schritten</h3>
+<div class="fragment">
+    <p>1. Register Service Worker</p>
+    <pre><code data-trim contenteditable>
+    if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('serviceWorker.js', {
+    scope: '/app/'
+    })
+    .then(function (reg) {
+        console.log('sW registered', reg);
+    })
+    .catch(function (err) {
+        console.log('something with the sw went wrong', err);
+    });
+}
+    </code></pre>
+</div>
+</section>
+
+<section>
+    <h3>ServiceWorker in vier Schritten</h3>
+    <div>
+        <p>2. Downloading</p>
+    </div>
+</section>
+<section>
+    <h3>ServiceWorker in vier Schritten</h3>
+    <div>
+        <p>3. Installation</p>
+    <pre><code data-trim contenteditable>
+        this.addEventListener('install', function (event) {
+        event.waitUntil(
+        //    fetchStuffAndInitDatabases()
+        console.log('installed')
+        );
+        });
+    </code></pre>
+    </div>
+</section>
+<section>
+    <h3>ServiceWorker in vier Schritten</h3>
+    <div>
+        <p>4. Aktiv</p>
+    <pre><code data-trim contenteditable>
+        this.addEventListener('activate', function (event) {
+        // You're good to go!
+        console.log('activated');
+        });
+    </code></pre>
+    </div>
+</section>
