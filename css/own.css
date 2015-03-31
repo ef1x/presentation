@@ -17,6 +17,9 @@
 .triangle-border.left {
     margin-left:30px;
     width: 30%;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+
 }
 
 /* Variant : for right positioned triangle

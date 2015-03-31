@@ -37,15 +37,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="summary.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="summary.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slides/slide10/summary.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85820895" vertical-offset="301" max-vertical-offset="779">
+            <state vertical-scroll-proportion="-12.321428" vertical-offset="301" max-vertical-offset="779">
               <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#section#2;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="own.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/own.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7953488" vertical-offset="57" max-vertical-offset="2546">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,10 +72,10 @@
         <option value="$PROJECT_DIR$/slides/slide7/online.html" />
         <option value="$PROJECT_DIR$/slides/slide9/future.html" />
         <option value="$PROJECT_DIR$/push" />
-        <option value="$PROJECT_DIR$/css/own.css" />
         <option value="$PROJECT_DIR$/slides/slide8/offline.html" />
         <option value="$PROJECT_DIR$/slides/slide5/serviceWorker.html" />
         <option value="$PROJECT_DIR$/slides/slide10/summary.html" />
+        <option value="$PROJECT_DIR$/css/own.css" />
       </list>
     </option>
   </component>
@@ -487,14 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/own.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2489">
-          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/sw.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -536,12 +538,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/slides/slide10/summary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85820895" vertical-offset="301" max-vertical-offset="779">
+        <state vertical-scroll-proportion="-12.321428" vertical-offset="301" max-vertical-offset="779">
           <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#0;n#section#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#section#2;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/own.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7953488" vertical-offset="57" max-vertical-offset="2546">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
